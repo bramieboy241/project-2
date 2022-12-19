@@ -4,32 +4,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="author" content="Bram Serré">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Portolio - Curriculum Vitae</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/portfolio.css">
 </head>
 
-<body>
-  <nav class="navbar navbar-expand-md navbar-light bg-light mb-4 sticky-md-top">
+<body class="bg-danger">
+  <nav class="navbar navbar-expand-md navbar-dark background-nav sticky-md-top">
     <div class="container-fluid">
-      <a class="navbar-brand">Bram Serré</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand"><span class="text-color">Bram Serré</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="index.html">Start</a>
+            <a class="nav-link" aria-current="page" href="index.html"><span class="text-color">Start</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" href="cv.html">Curriculum Vitae</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="hobby.html">Hobby's en Interesses</a>
+            <a class="nav-link" href="hobby.html"><span class="text-color">Hobby's en Interesses</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link" href="contact.html"><span class="text-color">Contact</span></a>
           </li>
         </ul>
       </div>
@@ -41,12 +44,12 @@
   <div class="accordion" id="accordionExample">
     <div class="accordion-item">
       <h2 class="accordion-header" id="headingOne">
-        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
           diploma's
         </button>
       </h2>
       <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-        <div class="accordion-body">
+        <div class="accordion-body bg-dark">
           <section>
             <h1 class="text-center">Diploma's</h1>
         
@@ -100,7 +103,7 @@
         </button>
       </h2>
       <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-        <div class="accordion-body">
+        <div class="accordion-body bg-danger">
           <section>
             <h1 class="text-center">Hier komt mijn werkervaring</h1>
           <h4 class="text-center">Hier komt uitleg dat je op de foto's moet klikken.</h4>
@@ -180,19 +183,19 @@
         </button>
       </h2>
       <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-        <div class="accordion-body">
+        <div class="accordion-body bg-dark">
           <section>
-            <h3 class="m-2 text-center">Nederlands:</h3>
+            <h3 class="m-2 text-center text-danger">Nederlands:</h3>
           <div class="progress m-2">
-            <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" aria-label="Default striped example" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"><small class="justify-content-center d-flex position-absolute w-100 text-black">100%</small></div>
+            <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" aria-label="Default striped example" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"><small class="justify-content-center d-flex position-absolute w-100 text-danger">100%</small></div>
           </div>
-          <h3 class="m-2 text-center">Engels:</h3>
+          <h3 class="m-2 text-center text-danger">Engels:</h3>
           <div class="progress m-2">
-            <div class="progress-bar progress-bar-striped bg-danger " role="progressbar" aria-label="Success striped example" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"><small class="justify-content-center d-flex position-absolute w-100 text-black">95%</small></div>
+            <div class="progress-bar progress-bar-striped bg-warning " role="progressbar" aria-label="Success striped example" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"><small class="justify-content-center d-flex position-absolute w-100 text-danger">95%</small></div>
           </div>
-          <h3 class="m-2 text-center">Frans:</h3>
+          <h3 class="m-2 text-center text-danger">Frans:</h3>
           <div class="progress m-2">
-            <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" aria-label="Info striped example" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"><small class="justify-content-center d-flex position-absolute w-100 text-black">10%</small></div>
+            <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" aria-label="Info striped example" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"><small class="justify-content-center d-flex position-absolute w-100 text-danger">10%</small></div>
           </div>
           </section>
         </div>
@@ -206,7 +209,7 @@
         <div class="col-6">
           <h3 class="mb-3">Carousel cards title </h3>
         </div>
-        <div class="col-6 text-right">
+        <div class="col-6 col-sm-3 text-right">
           <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
             <i class="fa fa-arrow-left"></i>
           </a>
@@ -217,7 +220,7 @@
         <div class="col-12">
           <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
   
-            <div class="carousel-inner">
+            <div class="carousel-inner cols-sm-4">
               <div class="carousel-item active">
                 <div class="row">
   
@@ -289,13 +292,8 @@
   </section>
 
 
-  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center border-top bg-dark fixed-bottom">
     <div class="col-md-4 d-flex align-items-center">
-      <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
-        <svg class="bi" width="30" height="24">
-          <use xlink:href="#bootstrap"></use>
-        </svg>
-      </a>
       <span class="mb-3 mb-md-0 text-muted">&copy; Bram Serré</span>
     </div>
 
